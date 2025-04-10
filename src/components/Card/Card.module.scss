@@ -1,0 +1,16 @@
+.card {
+	padding: 0.5rem;
+	max-width: 20rem;
+	border: 1px solid gray;
+	margin: 0 auto;
+	&__img-container {
+		display: flex;
+		height: 13rem;
+		align-items: center;
+		justify-content: center;
+	}
+}
+.checkboxes {
+	display: flex;
+	flex-direction: column;
+}
